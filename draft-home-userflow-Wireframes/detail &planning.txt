@@ -1,0 +1,81 @@
+ Trip planner
+
+
+
+
+Home (/)
+
+Le tableau de bord.  
+barre de recherche, 
+(My Trips) 
+bouton 
+
+TripOverview (/trip/:id)
+planning global (Tabs/Colonnes)
+
+DayPlanner (/trip/:id/day/:dayNumber)
+
+ActivityForm (/trip/:id/activity/edit/:activityId?)
+
+
+Components
+Navbar : Navigation constante avec lien retour et logo.
+Footer : Liens secondaires.
+
+
+Composants "Smart" (Business Logic)
+
+    SearchBar : Filtre la collection de voyages par pays ou date.  
+
+    TripCard : Affiche un résumé du voyage (Image Unsplash, Nom, Date, Badge "Coming").  
+
+    WeatherWidget : Appelle l'API OpenWeather et affiche les icônes selon les dates.  
+
+    ActivityItem : Une ligne d'activité avec son titre, son prix (Currency) et l'option de suppression.  
+
+    SkeletonTrip : Version grise du TripCard pour l'état de chargement.  
+
+Composants "Dumb" (UI Réutilisable)
+
+    Button : Composant stylisé pour "Submit", "Add", "Export PDF".  
+
+    EmptyState : Affiche le message "Créer mon premier voyage" si la liste est vide.  
+
+    Badge : Pour afficher le statut du voyage ou la monnaie locale (via RestCountries API).  
+
+    FormInput : Champ de saisie générique avec gestion d'erreur intégrée.
+
+
+3. Gestion des Données (Data Management)
+{
+  "trips": [
+    {
+      "id": 1,
+      "destination": "Venise",
+      "countryCode": "IT",
+      "startDate": "2027-05-10",
+      "endDate": "2027-05-15",
+      "imageUrl": "https://source.unsplash.com/featured/?Venice"
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "tripId": 1,
+      "day": 1,
+      "title": "Tour en Gondole",
+      "type": "Catering",
+      "price": 80,
+      "currency": "€"
+    }
+  ]
+}
+
+
+Stratégie de Flux :
+
+    Relation : Les activités sont liées au voyage via tripId.  
+
+    Filtrage : Utilise les URLSearchParams de React Router pour la barre de recherche. Cela permet à l'utilisateur de partager une recherche spécifique (bonus UX).
+
+    Chargement : Utilise un état isLoading dans tes composants de page pour basculer entre tes Skeletons et ton contenu réel.
