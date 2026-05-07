@@ -1,34 +1,6 @@
 {
   "trips": [
     {
-      "id": "1",
-      "destination": "Venice, Italy",
-      "countryCode": "IT",
-      "startDate": "2027-05-10",
-      "endDate": "2027-05-15",
-      "status": "planned",
-      "budgetLimit": 1500,
-      "userCurrency": "EUR",
-      "localCurrency": "EUR",
-      "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee2887a35f?auto=format&fit=crop&w=800",
-      "isFavorite": true,
-      "currentWeather": "22°C, Sunny"
-    },
-    {
-      "id": "2",
-      "destination": "Ouidah, Benin",
-      "countryCode": "BJ",
-      "startDate": "2024-01-15",
-      "endDate": "2024-01-20",
-      "status": "done",
-      "budgetLimit": 800,
-      "userCurrency": "EUR",
-      "localCurrency": "XOF",
-      "imageUrl": "https://images.unsplash.com/photo-1591122940263-8820f719b02a?auto=format&fit=crop&w=800",
-      "isFavorite": false,
-      "currentWeather": "31°C, Humidity"
-    },
-    {
       "id": "3",
       "destination": "Tokyo, Japan",
       "countryCode": "JP",
@@ -57,69 +29,99 @@
       "currentWeather": "15°C, Rain"
     },
     {
-      "destination": "Avignon",
-      "startDate": "",
-      "endDate": "",
-      "budgetLimit": 0,
+      "destination": "mexico",
+      "startDate": "2026-05-23",
+      "endDate": "2026-06-24",
+      "budgetLimit": 2000,
       "userCurrency": "EUR",
       "localCurrency": "EUR",
       "imageUrl": "https://images.unsplash.com/photo-1488085061387-422e29b40080?q=80&w=800",
-      "isFavorite": false,
+      "isFavorite": true,
       "status": "planned",
-      "currentWeather": "19°C, Clear",
-      "id": "rHav61u"
+      "currentWeather": "30°C, Clear",
+      "id": "jHI6T4s"
     }
   ],
   "activities": [
     {
-      "id": "a2",
-      "tripId": "1",
-      "dayNumber": 1,
-      "time": "13:00",
-      "title": "Trattoria Lunch",
-      "category": "food",
-      "priceLocal": 35,
-      "priceUser": 35,
-      "isCompleted": false,
-      "notes": "Booked for 2 people"
-    },
-    {
-      "id": "a3",
-      "tripId": "2",
-      "dayNumber": 1,
-      "time": "09:00",
-      "title": "History Museum",
-      "category": "culture",
-      "priceLocal": 5000,
-      "priceUser": 7.6,
-      "isCompleted": true,
-      "notes": "Guided tour included"
-    },
-    {
-      "tripId": "1",
-      "title": "gondole tour ",
-      "time": "15:30",
-      "category": "activity",
-      "priceLocal": 15,
-      "isCompleted": false,
-      "id": "s2udGws"
-    },
-    {
-      "tripId": "1",
-      "title": "GYM HOTEL",
-      "time": "09:00",
+      "tripId": "jHI6T4s",
+      "title": "beach",
+      "time": "14:45",
       "category": "activity",
       "priceLocal": 0,
       "isCompleted": false,
-      "id": "9o0Pwx5"
+      "id": "vDrHw0F"
     },
     {
+      "title": "restaurant",
+      "time": "12:25",
+      "category": "food",
+      "priceLocal": 50,
+      "tripId": "jHI6T4s",
+      "id": "xD-7NVR"
+    },
+    {
+      "tripId": "jHI6T4s",
       "title": "shopping",
-      "time": "17:00",
+      "time": "15:00",
       "category": "activity",
-      "priceLocal": 100,
-      "tripId": "1",
-      "id": "qQa5tE0"
+      "priceLocal": 300,
+      "isCompleted": false,
+      "id": "Rc4nWFB"
+    },
+    {
+      "title": "Eiffel Tower",
+      "time": "10:00",
+      "category": "activity",
+      "priceLocal": 15,
+      "tripId": "4",
+      "id": "YzYCKWG"
+    },
+    {
+      "tripId": "4",
+      "title": "Montparnasse",
+      "time": "14:00",
+      "category": "activity",
+      "dayNumber": 1,
+      "priceLocal": 0,
+      "isCompleted": false,
+      "id": "a4r8-xn"
+    },
+    {
+      "tripId": "4",
+      "title": "Musee des Sciences",
+      "time": "11:00",
+      "category": "activity",
+      "dayNumber": 2,
+      "priceLocal": 7,
+      "isCompleted": false,
+      "id": "DXgYgWr"
+    },
+    {
+      "tripId": "4",
+      "title": "Quartier latin",
+      "time": "14:00",
+      "category": "activity",
+      "dayNumber": 3,
+      "priceLocal": 0,
+      "isCompleted": false,
+      "id": "bqbd-tw"
+    },
+    {
+      "title": "Georges Pompidou",
+      "time": "16:00",
+      "category": "activity",
+      "priceLocal": 0,
+      "tripId": "4",
+      "id": "HJOQIp-"
+    },
+    {
+      "title": "Arce de triomphe Bus Tour",
+      "time": "10:00",
+      "category": "activity",
+      "priceLocal": 14,
+      "tripId": "4",
+      "id": "IrccezS"
     }
   ]
 }
