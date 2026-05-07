@@ -68,19 +68,6 @@
       "status": "planned",
       "currentWeather": "19°C, Clear",
       "id": "rHav61u"
-    },
-    {
-      "destination": "digne les bains",
-      "startDate": "",
-      "endDate": "",
-      "budgetLimit": 0,
-      "userCurrency": "EUR",
-      "localCurrency": "EUR",
-      "imageUrl": "https://images.unsplash.com/photo-1488085061387-422e29b40080?q=80&w=800",
-      "isFavorite": false,
-      "status": "planned",
-      "currentWeather": "No data",
-      "id": "l15T-mX"
     }
   ],
   "activities": [
@@ -107,6 +94,32 @@
       "priceUser": 7.6,
       "isCompleted": true,
       "notes": "Guided tour included"
+    },
+    {
+      "tripId": "1",
+      "title": "gondole tour ",
+      "time": "15:30",
+      "category": "activity",
+      "priceLocal": 15,
+      "isCompleted": false,
+      "id": "s2udGws"
+    },
+    {
+      "tripId": "1",
+      "title": "GYM HOTEL",
+      "time": "09:00",
+      "category": "activity",
+      "priceLocal": 0,
+      "isCompleted": false,
+      "id": "9o0Pwx5"
+    },
+    {
+      "title": "shopping",
+      "time": "17:00",
+      "category": "activity",
+      "priceLocal": 100,
+      "tripId": "1",
+      "id": "qQa5tE0"
     }
   ]
 }
