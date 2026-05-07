@@ -81,32 +81,6 @@
       "status": "planned",
       "currentWeather": "No data",
       "id": "l15T-mX"
-    },
-    {
-      "destination": "lille",
-      "startDate": "",
-      "endDate": "",
-      "budgetLimit": 0,
-      "userCurrency": "EUR",
-      "localCurrency": "EUR",
-      "imageUrl": "https://images.unsplash.com/photo-1488085061387-422e29b40080?q=80&w=800",
-      "isFavorite": false,
-      "status": "planned",
-      "currentWeather": "14°C, Clouds",
-      "id": "sPwm2rC"
-    },
-    {
-      "destination": "Rennes",
-      "startDate": "",
-      "endDate": "",
-      "budgetLimit": 0,
-      "userCurrency": "EUR",
-      "localCurrency": "EUR",
-      "imageUrl": "https://images.unsplash.com/photo-1488085061387-422e29b40080?q=80&w=800",
-      "isFavorite": false,
-      "status": "planned",
-      "currentWeather": "11°C, Rain",
-      "id": "cjvKvVQ"
     }
   ],
   "activities": [
