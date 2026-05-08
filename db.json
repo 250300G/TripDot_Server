@@ -1,49 +1,82 @@
 {
   "trips": [
     {
-      "id": "3",
+      "id": "1",
       "destination": "Tokyo, Japan",
       "countryCode": "JP",
-      "startDate": "2028-10-01",
-      "endDate": "2028-10-10",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-10",
       "status": "planned",
       "budgetLimit": 3000,
       "userCurrency": "EUR",
       "localCurrency": "JPY",
       "imageUrl": "https://images.unsplash.com/photo-1540959733332-e94e270b4d82?auto=format&fit=crop&w=800",
       "isFavorite": false,
-      "currentWeather": "19°C, Clear"
+      "weather": "19°C, Clear"
     },
     {
-      "id": "4",
+      "id": "2",
       "destination": "Paris, France",
       "countryCode": "FR",
-      "startDate": "2027-05-18",
-      "endDate": "2027-05-20",
+      "startDate": "2026-05-18",
+      "endDate": "2026-05-20",
       "status": "planned",
-      "budgetLimit": 500,
+      "budgetLimit": 200,
       "userCurrency": "EUR",
       "localCurrency": "EUR",
       "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee2887a35f?auto=format&fit=crop&w=800",
       "isFavorite": true,
-      "currentWeather": "15°C, Rain"
+      "weather": "15°C, Rain"
+    },
+    {
+      "id": "3",
+      "destination": "Lille, France",
+      "startDate": "2026-05-08",
+      "endDate": "2026-05-11",
+      "budgetLimit": 800,
+      "userCurrency": "EUR",
+      "localCurrency": "EUR",
+      "imageUrl": "https://www.zoomsurlille.fr/wp-content/uploads/photo-gallery/rues-de-lille/rues_8_20101113_1670161287.jpg?bwg=1569276738",
+      "isFavorite": false,
+      "status": "planned",
+      "weather": "13°C, Clouds"
     }
   ],
   "activities": [
     {
-      "id": "YzYCKWG",
-      "tripId": "4",
+      "id": "act1",
+      "tripId": "2",
       "title": "Eiffel Tower",
       "time": "10:00",
       "category": "activity",
       "dayNumber": 1,
-      "priceLocal": 15,
+      "priceLocal": 25,
       "isCompleted": false
     },
     {
-      "id": "a4r8-xn",
-      "tripId": "4",
-      "title": "Montparnasse",
+      "id": "act2",
+      "tripId": "2",
+      "title": "Bistro Dinner",
+      "time": "19:30",
+      "category": "food",
+      "dayNumber": 1,
+      "priceLocal": 180,
+      "isCompleted": false
+    },
+    {
+      "id": "act3",
+      "tripId": "2",
+      "title": "Louvre Museum",
+      "time": "09:00",
+      "category": "activity",
+      "dayNumber": 2,
+      "priceLocal": 17,
+      "isCompleted": false
+    },
+    {
+      "id": "act4",
+      "tripId": "3",
+      "title": "Vieux Lille Walk",
       "time": "14:00",
       "category": "activity",
       "dayNumber": 1,
@@ -51,13 +84,13 @@
       "isCompleted": false
     },
     {
-      "id": "DXgYgWr",
-      "tripId": "4",
-      "title": "Musee des Sciences",
-      "time": "11:00",
-      "category": "activity",
+      "id": "act5",
+      "tripId": "3",
+      "title": "Estaminet Restaurant",
+      "time": "12:00",
+      "category": "fo
       "dayNumber": 2,
-      "priceLocal": 7,
+      "priceLocal": 45,
       "isCompleted": false
     }
   ]
