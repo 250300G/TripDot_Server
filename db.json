@@ -27,101 +27,38 @@
       "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee2887a35f?auto=format&fit=crop&w=800",
       "isFavorite": true,
       "currentWeather": "15°C, Rain"
-    },
-    {
-      "destination": "mexico",
-      "startDate": "2026-05-23",
-      "endDate": "2026-06-24",
-      "budgetLimit": 2000,
-      "userCurrency": "EUR",
-      "localCurrency": "EUR",
-      "imageUrl": "https://images.unsplash.com/photo-1488085061387-422e29b40080?q=80&w=800",
-      "isFavorite": true,
-      "status": "planned",
-      "currentWeather": "30°C, Clear",
-      "id": "jHI6T4s"
     }
   ],
   "activities": [
     {
-      "tripId": "jHI6T4s",
-      "title": "beach",
-      "time": "14:45",
-      "category": "activity",
-      "priceLocal": 0,
-      "isCompleted": false,
-      "id": "vDrHw0F"
-    },
-    {
-      "title": "restaurant",
-      "time": "12:25",
-      "category": "food",
-      "priceLocal": 50,
-      "tripId": "jHI6T4s",
-      "id": "xD-7NVR"
-    },
-    {
-      "tripId": "jHI6T4s",
-      "title": "shopping",
-      "time": "15:00",
-      "category": "activity",
-      "priceLocal": 300,
-      "isCompleted": false,
-      "id": "Rc4nWFB"
-    },
-    {
+      "id": "YzYCKWG",
+      "tripId": "4",
       "title": "Eiffel Tower",
       "time": "10:00",
       "category": "activity",
+      "dayNumber": 1,
       "priceLocal": 15,
-      "tripId": "4",
-      "id": "YzYCKWG"
+      "isCompleted": false
     },
     {
+      "id": "a4r8-xn",
       "tripId": "4",
       "title": "Montparnasse",
       "time": "14:00",
       "category": "activity",
       "dayNumber": 1,
       "priceLocal": 0,
-      "isCompleted": false,
-      "id": "a4r8-xn"
+      "isCompleted": false
     },
     {
+      "id": "DXgYgWr",
       "tripId": "4",
       "title": "Musee des Sciences",
       "time": "11:00",
       "category": "activity",
       "dayNumber": 2,
       "priceLocal": 7,
-      "isCompleted": false,
-      "id": "DXgYgWr"
-    },
-    {
-      "tripId": "4",
-      "title": "Quartier latin",
-      "time": "14:00",
-      "category": "activity",
-      "dayNumber": 3,
-      "priceLocal": 0,
-      "isCompleted": false,
-      "id": "bqbd-tw"
-    },
-    {
-      "title": "Georges Pompidou",
-      "time": "16:00",
-      "category": "activity",
-      "priceLocal": 0,
-      "tripId": "4",
-      "id": "HJOQIp-"
-    },
-    {
-      "title": "Arce de triomphe Bus Tour",
-      "time": "10:00",
-      "category": "activity",
-      "priceLocal": 14,
-      "tripId": "4",
-      "id": "IrccezS"
+      "isCompleted": false
     }
   ]
 }
